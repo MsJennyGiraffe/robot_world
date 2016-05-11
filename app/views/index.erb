@@ -1,0 +1,10 @@
+<h1>Robots Directory</h1>
+
+<% @robots.each do |robot| %>
+  <%= robot.avatar %>
+  <h3><%= robot.name%></h3>
+  <p><%= robot.city %>, <%= robot.state %></p>
+  <p><%= robot.birthdate %></p>
+  <p><%= robot.date_hired %></p>
+  <p><%= robot.department %></p>
+<% end %>

@@ -1,0 +1,16 @@
+---
+robots:
+- name: Jenny
+  city: Littleton
+  state: CO
+  avatar: Yes please
+  birthdate: 030490
+  date_hired: today
+  department: the fun one
+- name: Josh
+  city: Littleton
+  state: CO
+  avatar: sometimes
+  birthdate: '111889'
+  date_hired: today
+  department: the no fun one
