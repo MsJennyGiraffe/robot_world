@@ -16,4 +16,28 @@ robots:
   birthdate: '111889'
   date_hired: today
   department: the almost no fun one
-total: 2
+- id: 3
+  name: Erin
+  city: Denver
+  state: CO
+  avatar: 'yes'
+  birthdate: '050505'
+  date_hired: today
+  department: the awesome one
+- id: 4
+  name: Bob
+  city: Denver
+  state: CO
+  avatar: ''
+  birthdate: 12/25/1000
+  date_hired: today
+  department: the fun one
+- id: 5
+  name: Christine
+  city: Denver
+  state: Co
+  avatar: mklsdm
+  birthdate: '121390'
+  date_hired: today!
+  department: the super fun one
+total: 5
