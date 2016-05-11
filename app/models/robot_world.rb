@@ -21,7 +21,10 @@ attr_reader :database
   def create(robot)
     database.transaction do
       database['robots'] ||= []
+      database['total'] ||= 0
+      database['total'] += 1
       database['robots'] << {
+        "id"         => database['total'],
         "name"       => robot[:name],
         "city"       => robot[:city],
         "state"      => robot[:state],
@@ -34,9 +37,7 @@ attr_reader :database
   end
 
   def raw_robot(name)
-    raw_robots.find do |robot|
-      robot["name"] == name.capitalize
-    end
+    raw_robots.find { |robot| robot["name"] == name.capitalize }
   end
 
   def find(name)

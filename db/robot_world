@@ -1,16 +1,19 @@
 ---
 robots:
-- name: Jenny
+- id: 1
+  name: Jenny
   city: Littleton
   state: CO
-  avatar: Yes please
+  avatar: 'yes'
   birthdate: 030490
   date_hired: today
   department: the fun one
-- name: Josh
+- id: 2
+  name: Josh
   city: Littleton
   state: CO
-  avatar: sometimes
+  avatar: 'yes'
   birthdate: '111889'
   date_hired: today
-  department: the no fun one
+  department: the almost no fun one
+total: 2
